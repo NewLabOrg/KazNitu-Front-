@@ -30,8 +30,10 @@ function AuthenticatedMenu() {
 }
 
 function UnauthenticatedMenu() {
+
     return (
-        <div>
+
+        /*<div>
             <div className="text-center">
                 <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">Добро пожаловать в KazNITU Analytics!</h1>
                 <div className="max-w-3xl mx-auto">
@@ -58,8 +60,22 @@ function UnauthenticatedMenu() {
                     </div>
                 </div>
             </div>
+        </div>*/
+        <div className="bg-gray-900 text-white">
+            <div className="container mx-auto flex justify-between items-center py-4 px-8">
+                <div></div> {/* Пустой элемент для выравнивания */}
+                <div>
+                    <button className="mr-4 focus:outline-none hover:text-gray-400 transition-colors duration-300 ease-in-out">Сменить язык</button>
+                    <button className="focus:outline-none hover:text-gray-400 transition-colors duration-300 ease-in-out">Выйти из системы</button>
+                </div>
+            </div>
         </div>
+
+
+
+
     );
 }
+
 
     export default Header;

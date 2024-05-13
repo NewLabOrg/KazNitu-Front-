@@ -1,10 +1,14 @@
 import Header from "../Components/Header.tsx";
+import Main from "../Components/Main.tsx"
 
 const MainPage = (): any =>{
     return(
         <div>
-            <Header />
+            <header>
+                <Header />
+            </header>
         </div>
+
 
     )
 
